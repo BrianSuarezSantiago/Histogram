@@ -9,7 +9,7 @@ import java.util.HashMap;
  * of each value in the array.
  *
  * @author Brian Suárez Santiago
- * @version 4.0.0
+ * @version 5.0.0
  * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">Interface Map</a>
  * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html">Class HashMap</a>
  */
