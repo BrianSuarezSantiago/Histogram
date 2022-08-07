@@ -7,13 +7,13 @@ import java.util.Map;
  * calling the getHistogram() method that returns a histogram.
  *
  * @author Brian Suárez Santiago
- * @version 3.0.0
+ * @version 4.0.0
  * @see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Map.html">Interface Map</a>
  */
 public class Main {
 
     public static void main(String[] args) {
-        int[] data = {0, 7, 4, 3, 0, 5, 7, 2, 1, 4, 9, 0, 6, 5, 2, 7, 8, 7, 4, 7};    // Represents the keys
+        Integer[] data = {0, 7, 4, 3, 0, 5, 7, 2, 1, 4, 9, 0, 6, 5, 2, 7, 8, 7, 4, 7};    // Represents the keys
         Histogram histogram = new Histogram(data);
         Map<Integer, Integer> histogr = histogram.getHistogram();
 
